@@ -1,0 +1,33 @@
+.trangchu {
+  background: rgb(245, 140, 2);
+}
+.p_trangchu {
+  color: rgb(6, 60, 82);
+  font-size: 20px;
+  font-style: italic;
+}
+#nutbt,
+#nuthome,
+#nuthotro {
+  background: rgb(235, 39, 5);
+}
+.th_01,
+.th_02 {
+  color: blue;
+  background: green;
+}
+.td_01 {
+  color: orange;
+  background: rgb(0, 40, 63);
+}
+.chan_01,
+.chan_02 {
+  color: red;
+  background: rgb(31, 233, 4);
+}
+.ds_01 {
+  font-size: 30px;
+}
+.co-chu-DS-01 {
+  font-size: 20px;
+}
