@@ -6,9 +6,9 @@
   font-size: 20px;
   font-style: italic;
 }
-#nutbt,
-#nuthome,
-#nuthotro {
+.nutbt,
+.nuthome,
+.nuthotro {
   background: rgb(235, 39, 5);
 }
 .th_01,
