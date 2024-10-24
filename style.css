@@ -3,6 +3,7 @@
   background: hsl(0, 0%, 100%);
 }
 .bt_chung {
+  font-size: 25px;
   color: rgb(255, 7, 7);
   background: rgb(173, 231, 24);
   border: 1px solid rgb(0, 40, 126);
@@ -36,12 +37,13 @@
 .ds_01:visited {
   color: rgb(240, 6, 103);
 }
+/* chung kéo xà và hít đất */
+.co-chu-DS-01 {
+  font-size: 20px;
+}
 /* text hít đất */
 .hitdat {
   font-size: 25px;
-}
-.co-chu-DS-01 {
-  font-size: 20px;
 }
 .tieu-de-hit-dat {
   color: blue;
@@ -52,6 +54,9 @@ h1:target {
 /* text kéo xà */
 .tieu-de-keo-xa {
   color: blue;
+}
+.keoxa {
+  font-size: 25px;
 }
 /* phần bài tập */
 .th_01 {
