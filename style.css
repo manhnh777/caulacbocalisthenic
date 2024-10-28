@@ -3,7 +3,7 @@
   background: hsl(0, 0%, 100%);
 }
 .bt_chung {
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(255, 7, 7);
   background: rgb(173, 231, 24);
   border: 1px solid rgb(0, 40, 126);
@@ -37,7 +37,7 @@
 .ds_01:visited {
   color: rgb(240, 6, 103);
 }
-/* chung kéo xà và hít đất */
+/* chung kéo xà & hít đất & tập bụng*/
 .co-chu-DS-01 {
   font-size: 20px;
 }
@@ -83,4 +83,11 @@ h1:target {
   color: blue;
   background: rgb(250, 171, 2);
   border: 1px black solid;
+}
+/* text bài tập bụng */
+.bai-tap-bung {
+  font-size: 25px;
+}
+.tieu-de-tap-bung {
+  color: blue;
 }
