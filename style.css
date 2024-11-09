@@ -2,11 +2,16 @@
 .trangchu {
   background: hsl(0, 0%, 100%);
 }
+.bt-cac-trang {
+  margin: 0 auto;
+  width: 1700px;
+}
 .bt_chung {
   font-size: 20px;
   color: rgb(255, 7, 7);
   background: rgb(173, 231, 24);
-  border: 1px solid rgb(0, 40, 126);
+  border: 3px solid rgb(0, 40, 126);
+  border-radius: 10px;
 }
 .bt_chung:hover {
   color: rgb(7, 7, 7);
@@ -21,15 +26,49 @@
   color: blueviolet;
 }
 /* text index */
-.p_trangchu {
-  font-size: 20px;
+
+/* .bt-cac-trang {
+  margin: 0 auto;
+  width: 1700px;
+} */
+.h1-index {
+  font-size: 30px;
+}
+.trangindex .gioithieu {
+  font-size: 25px;
+  width: 1100px;
+  height: 55px;
+  box-sizing: border-box;
+}
+.trangindex .gioithieu01 {
+  height: 15px;
+}
+.trangindex .gioithieu04,
+.gioithieu05,
+.gioithieu07 {
+  height: 90px;
+}
+.trangindex .gioithieu09 {
+  height: 95px;
+}
+.trangindex .h1-index {
+  color: red;
+}
+.trangindex {
+  margin: 0 auto;
+  width: 1700px;
+}
+.anh {
+  margin: 0 auto auto 190px;
+  width: 700px;
+}
+.danh-sach-tap {
+  margin: 0 auto;
+  width: 1700px;
 }
 /* thẻ a index */
 .ds_01 {
   font-size: 30px;
-}
-.ds_01:hover {
-  color: rgb(240, 46, 46);
 }
 .ds_01:link {
   color: blue;
@@ -38,12 +77,24 @@
   color: rgb(240, 6, 103);
 }
 /* chung kéo xà & hít đất & tập bụng*/
+/* .co-chu-DS-01 -> cochu nameclass */
 .co-chu-DS-01 {
   font-size: 20px;
 }
+.cochu {
+  font-size: 20px;
+}
 /* text hít đất */
+.tranghitdat {
+  margin: 0 auto;
+  width: 1700px;
+}
 .hitdat {
   font-size: 25px;
+  text-decoration: none;
+}
+.hitdat:hover {
+  text-decoration: underline;
 }
 .tieu-de-hit-dat {
   color: blue;
