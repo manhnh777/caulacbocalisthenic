@@ -1,0 +1,93 @@
+/* thộc tính chung */
+.trangchu {
+  background: hsl(0, 0%, 100%);
+}
+.bt_chung {
+  font-size: 20px;
+  color: rgb(255, 7, 7);
+  background: rgb(173, 231, 24);
+  border: 1px solid rgb(0, 40, 126);
+}
+.bt_chung:hover {
+  color: rgb(7, 7, 7);
+}
+.bt_chung:active {
+  background: rgb(4, 235, 16);
+}
+.quay-ve-dau-trang {
+  font-size: 25px;
+}
+.quay-ve-dau-trang:hover {
+  color: blueviolet;
+}
+/* text index */
+.p_trangchu {
+  font-size: 20px;
+}
+/* thẻ a index */
+.ds_01 {
+  font-size: 30px;
+}
+.ds_01:hover {
+  color: rgb(240, 46, 46);
+}
+.ds_01:link {
+  color: blue;
+}
+.ds_01:visited {
+  color: rgb(240, 6, 103);
+}
+/* chung kéo xà & hít đất & tập bụng*/
+.co-chu-DS-01 {
+  font-size: 20px;
+}
+/* text hít đất */
+.hitdat {
+  font-size: 25px;
+}
+.tieu-de-hit-dat {
+  color: blue;
+}
+h1:target {
+  color: rgb(255, 22, 5);
+}
+/* text kéo xà */
+.tieu-de-keo-xa {
+  color: blue;
+}
+.keoxa {
+  font-size: 25px;
+}
+/* phần bài tập */
+.th_01 {
+  color: blue;
+  background: green;
+  border: 1px black solid;
+}
+.th_02 {
+  color: rgb(40, 90, 17);
+  background: rgb(243, 169, 9);
+  border: 1px black solid;
+}
+.td_01 {
+  color: rgb(243, 169, 9);
+  background: rgb(40, 90, 17);
+  border: 1px black solid;
+}
+.chan_01 {
+  color: rgb(150, 31, 31);
+  background: rgb(201, 201, 8);
+  border: 1px black solid;
+}
+.chan_02 {
+  color: blue;
+  background: rgb(250, 171, 2);
+  border: 1px black solid;
+}
+/* text bài tập bụng */
+.bai-tap-bung {
+  font-size: 25px;
+}
+.tieu-de-tap-bung {
+  color: blue;
+}
