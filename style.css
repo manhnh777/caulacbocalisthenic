@@ -21,9 +21,12 @@
 }
 .quay-ve-dau-trang {
   font-size: 25px;
+  padding-left: 50%;
+  text-decoration: none;
 }
 .quay-ve-dau-trang:hover {
   color: blueviolet;
+  text-decoration: underline;
 }
 /* text index */
 
@@ -37,19 +40,7 @@
 .trangindex .gioithieu {
   font-size: 25px;
   width: 1100px;
-  height: 55px;
   box-sizing: border-box;
-}
-.trangindex .gioithieu01 {
-  height: 15px;
-}
-.trangindex .gioithieu04,
-.gioithieu05,
-.gioithieu07 {
-  height: 90px;
-}
-.trangindex .gioithieu09 {
-  height: 95px;
 }
 .trangindex .h1-index {
   color: red;
@@ -82,7 +73,8 @@
   font-size: 20px;
 }
 .cochu {
-  font-size: 20px;
+  font-size: 25px;
+  width: 1100px;
 }
 /* text hít đất */
 .tranghitdat {
@@ -102,7 +94,34 @@
 h1:target {
   color: rgb(255, 22, 5);
 }
+.thuong-the-div,
+.kimcuong-the-div,
+.doc-nen-the-div,
+.doc-xuong-the-div {
+  margin: 0 auto;
+  width: 1700px;
+}
+.anhhitdat {
+  margin: 0 auto;
+  padding-left: 170px;
+}
 /* text kéo xà */
+.danh-sach-keo-xa,
+.keo-xa-chin-up,
+.keo-xa-pull-up {
+  margin: 0 auto;
+  width: 1700px;
+}
+.anh-keo-xa {
+  padding-left: 150px;
+}
+.keo-xa {
+  font-size: 30px;
+  text-decoration: none;
+}
+.keo-xa:hover {
+  text-decoration: underline;
+}
 .tieu-de-keo-xa {
   color: blue;
 }
