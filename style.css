@@ -1,7 +1,7 @@
 /* thuộc tính chung */
 html {
   font-size: 62.5%;
-  width: 70vw;
+  width: 80vw;
   margin: 0 auto auto 6%;
 }
 .trangchu {
@@ -11,9 +11,9 @@ html {
 .anh-hit-dat,
 .anh-tap-bung,
 .anh-trang-index {
-  width: 60vw;
-  height: 50vh;
-  margin: 0 auto auto 10%;
+  width: 70vw;
+  height: 60vh;
+  margin: 0 auto auto 2%;
   border: 1px solid;
 }
 a[href] {
@@ -49,6 +49,7 @@ a[href]:active {
   margin-left: 50%;
 }
 .tieu-de-mo-dau,
+.pull-up,
 .chin-up,
 .gap-bung-crunch,
 .gap-bung-hanging-leg-raise,
@@ -69,10 +70,11 @@ a[href]:active {
 h1:target {
   color: blue;
 }
+
 /* css index */
 .anh-trang-index {
-  width: 45vw;
-  height: 30vw;
+  width: 65vw;
+  height: 40vw;
 }
 .danh-sach-tap > a:hover {
   color: blue;
@@ -83,15 +85,36 @@ h1:target {
   color: blue;
   background-color: white;
 }
+.hit-dat-thuong-the-div > .anh-hit-dat,
+.kimcuong-the-div > .anh-hit-dat,
+.doc-nen-the-div > .anh-hit-dat {
+  width: 50vw;
+  height: 40vh;
+}
+.doc-xuong-the-div > .anh-hit-dat {
+  width: 60vw;
+  height: 45vh;
+}
 /* css bài tập bụng */
 .lien-ket-tap-bung .bai-tap-bung:hover {
   color: blue;
   background-color: white;
 }
+.bai-tap-crunch-div > .anh-tap-bung,
+.bai-tap-hanging-leg-raise-div > .anh-tap-bung {
+  width: 50vw;
+  height: 40vh;
+}
 /* css kéo xà */
 .lien-ket-keo-xa .keo-xa:hover {
   color: blue;
   background-color: white;
+}
+.keo-xa-pull-up-div > .anh-keo-xa,
+.keo-xa-chin-up-div > .anh-keo-xa,
+.keo-xa-Kipping-pull-up-div > .anh-keo-xa {
+  width: 50vw;
+  height: 40vh;
 }
 /* css hỗ trợ */
 .lien-ket-ho-tro a:hover {
