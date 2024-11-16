@@ -35,8 +35,8 @@ a[href]:active {
   margin-left: 50%;
 }
 .bt_chung {
-  width: 10%;
-  height: 5%;
+  font-size: 0.8em;
+  width: 90vw;
   color: black;
   background-color: rgb(21, 238, 21);
   border: 3px outset black;
