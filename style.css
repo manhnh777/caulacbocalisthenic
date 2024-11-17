@@ -3,6 +3,7 @@ html {
   font-size: 62.5%;
   width: 80vw;
   margin: 0 auto auto 6%;
+  box-sizing: border-box;
 }
 .trangchu {
   font-size: 2.5em;
