@@ -1,0 +1,22 @@
+.bt_chung,
+.quay-lai,
+.tieu-de-mo-dau,
+.danh-sach-tap > p,
+.lien-ket-hit-dat,
+.tieu-de-hit-dat,
+.lien-ket-keo-xa,
+.lien-ket-tap-bung,
+.lien-ket-ho-tro,
+h1,
+table {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.phan-text-gioi-thieu,
+.danh-sach-tap > a,
+.cochu {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}

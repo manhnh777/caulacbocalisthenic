@@ -1,0 +1,193 @@
+/* thuộc tính chung */
+body {
+  font-size: 62.5%;
+  line-height: 2rem;
+  color: #fff;
+  background-color: #353434;
+}
+.lien-ket-cac-trang {
+  margin: 0 auto 0 20px;
+}
+.bt_chung {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1f1e1e;
+  margin: 0 auto 0 5px;
+  border-radius: 4px;
+  text-shadow: 0px 0px 2px #8beaf7, 0px 0px 1px #000;
+  box-shadow: 0px 0px 1px #fff, 0px 0px 2px #7beef1, 0px 0px 3px #000;
+}
+.bt_chung:hover {
+  color: #303030;
+  background-color: #ffffff;
+  text-shadow: 0px 0px 3px rgb(209, 238, 245);
+  box-shadow: 0px 0px 2px rgba(4, 217, 245, 0.952);
+}
+.fa-house {
+  margin-right: 2px;
+}
+.trangchu {
+  font-size: 1.1rem;
+  color: #f5f2f2;
+  margin: 0 auto 0 10px;
+  text-shadow: 0px 0px 1px #0f4ffd;
+}
+.danh-sach-tap a {
+  color: rgb(4, 250, 176);
+  text-shadow: 0px 0px 1px #93dde7;
+  text-decoration: none;
+}
+.danh-sach-tap a:hover {
+  color: #7beef1;
+  text-decoration: underline;
+}
+.danh-sach-tap a:visited {
+  color: #f0f;
+  text-shadow: 0 0 1px #000;
+}
+.quay-lai .quay-ve-dau-trang {
+  color: #aae5ec;
+  background-color: #181818;
+  text-decoration: none;
+  display: inline-block;
+  padding: 3px;
+  margin: 0 40% 0;
+  border-radius: 5px;
+  text-shadow: 0px 0px 2px#3a5c5a;
+  box-shadow: inset 1px 1px #b1dbdb;
+}
+.quay-lai .quay-ve-dau-trang:hover {
+  color: #fff;
+  text-shadow: 0px 0px 3px #fff;
+  box-shadow: inset 1px 1px #ff0;
+  background-color: #111111;
+}
+.tieu-de-mo-dau {
+  color: #f00;
+  font-size: 1.6rem;
+  text-shadow: 2px 2px 2px #000;
+}
+/* ul {
+  list-style-type: decimal;
+}
+[href] {
+  list-style-type: none;
+} */
+/* css bài tập */
+th,
+td {
+  /* text-align: center; */
+  color: #3ad30b;
+  background-color: #191a19;
+  border: 2px solid #f1eded;
+  box-shadow: 0 0 3px #fff;
+}
+/* css hít đất */
+.lien-ket-hit-dat a {
+  font-size: 1.3rem;
+  color: #0ff;
+  text-decoration: none;
+}
+.lien-ket-hit-dat a:hover {
+  color: #0f0;
+  text-decoration: underline;
+}
+#hit-dat-thuong,
+#hit-dat-doclen,
+#hit-dat-docxuong,
+#hit-dat-kimcuong,
+#bench-dip {
+  font-size: 1.8rem;
+}
+.hitdat:visited {
+  color: #b306b3;
+}
+h1:target {
+  color: #f00;
+  text-shadow: 2px 2px 2px #807e7d;
+}
+.anh-hit-dat {
+  width: 300px;
+  height: 50vh;
+  margin: 0 auto auto 20px;
+  background-size: 50% 100%;
+}
+.cochu {
+  font-size: 1.3rem;
+}
+.tieu-de-hit-dat {
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px rgb(101, 236, 236);
+}
+/* css kéo xà */
+.lien-ket-keo-xa a {
+  font-size: 1.3rem;
+  color: #0ff;
+  text-decoration: none;
+}
+.lien-ket-keo-xa a:hover {
+  color: #0f0;
+  text-decoration: underline;
+}
+.keo-xa:visited {
+  color: #b306b3;
+}
+.pull-up,
+.chin-up,
+.kipping-pull-up {
+  font-size: 1.8rem;
+}
+.tieu-de-keo-xa {
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px rgb(101, 236, 236);
+}
+.anh-keo-xa {
+  width: 500px;
+  height: 50vh;
+  margin: 0 auto auto 20px;
+  background-size: 50% 100%;
+}
+/* css tập bụng */
+.lien-ket-tap-bung a {
+  font-size: 1.3rem;
+  color: #0ff;
+  text-decoration: none;
+}
+.lien-ket-tap-bung a:hover {
+  color: #0f0;
+  text-decoration: underline;
+}
+.bai-tap-bung:visited {
+  color: #b306b3;
+}
+.gap-bung-crunch,
+.gap-bung-hanging-leg-raise,
+.plank {
+  font-size: 1.8rem;
+}
+.tieu-de-tap-bung {
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px rgb(101, 236, 236);
+}
+.anh-tap-bung {
+  width: 300px;
+  height: 40vh;
+  margin: 0 auto auto 20px;
+  background-size: 100% 100%;
+}
+/* css hỗ trợ */
+.lien-ket-ho-tro h3 {
+  color: rgb(240, 243, 240);
+}
+.lien-ket-ho-tro a {
+  color: #e6ece5;
+  text-decoration: none;
+}
+.lien-ket-ho-tro a:hover {
+  color: #078507;
+  text-decoration: underline;
+}
