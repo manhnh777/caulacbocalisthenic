@@ -68,20 +68,20 @@ body {
   font-size: 1.6rem;
   text-shadow: 2px 2px 2px #000;
 }
-/* ul {
-  list-style-type: decimal;
-}
-[href] {
-  list-style-type: none;
-} */
 /* css bài tập */
 th,
 td {
-  /* text-align: center; */
-  color: #3ad30b;
-  background-color: #191a19;
-  border: 2px solid #f1eded;
+  color: #f7cb0a;
+  background-color: #012e03;
+  border: 2px solid #ffffff;
   box-shadow: 0 0 3px #fff;
+}
+table a {
+  color: #f7cb0a;
+  text-decoration: none;
+}
+table a:hover {
+  color: #0ff;
 }
 /* css hít đất */
 .lien-ket-hit-dat a {
