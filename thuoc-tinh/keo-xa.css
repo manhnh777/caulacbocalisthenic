@@ -1,0 +1,32 @@
+/* hiệu ứng cho phần liên kết đến bài tập kéo xà */
+.lien-ket-keo-xa a {
+  font-size: 1.3rem;
+  color: #0ff;
+  text-decoration: none;
+}
+.lien-ket-keo-xa a:hover {
+  color: #0f0;
+  text-decoration: underline;
+}
+.keo-xa:visited {
+  color: #b306b3;
+}
+/* cỡ chữ cho id bài tập */
+#pul-lup,
+#chin-up,
+#kipping-pull-up {
+  font-size: 1.8rem;
+}
+/* màu chữ và hiệu ứng cho tiêu đề kéo xà */
+.tieu-de-keo-xa {
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px rgb(101, 236, 236);
+}
+/* bố cục kéo xà */
+.anh-keo-xa {
+  width: 500px;
+  height: 50vh;
+  margin: 0 auto auto 20px;
+  background-size: 50% 100%;
+}

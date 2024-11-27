@@ -1,0 +1,33 @@
+/* attribute và hiệu ứng cho khối div .liên-kết tập bụng */
+.lien-ket-tap-bung a {
+  font-size: 1.3rem;
+  color: #0ff;
+  text-decoration: none;
+}
+.lien-ket-tap-bung a:hover {
+  color: #0f0;
+  text-decoration: underline;
+}
+/* hiệu ứng khi đã nhấp chuột vào .bai-tap-bung */
+.bai-tap-bung:visited {
+  color: #b306b3;
+}
+/* cỡ chữ cho h1 có mang class là tên bài tập */
+.gap-bung-crunch,
+.gap-bung-hanging-leg-raise,
+.plank {
+  font-size: 1.8rem;
+}
+/* màu, cỡ chữ cho tiêu đề tập bụng */
+.tieu-de-tap-bung {
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px rgb(101, 236, 236);
+}
+/* bố cục hình ảnh */
+.anh-tap-bung {
+  width: 300px;
+  height: 40vh;
+  margin: 0 auto auto 20px;
+  background-size: 100% 100%;
+}

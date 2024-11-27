@@ -1,0 +1,14 @@
+/* màu cho phần text hỗ trợ */
+.lien-ket-ho-tro h3 {
+  color: rgb(240, 243, 240);
+}
+/* màu cho thẻ a và attribute  */
+.lien-ket-ho-tro a {
+  color: #e6ece5;
+  text-decoration: none;
+}
+/* hiệu ứng khi di chuột */
+.lien-ket-ho-tro a:hover {
+  color: #078507;
+  text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+/* attribute default table */
+table a {
+  color: #f7cb0a;
+  text-decoration: none;
+}
+/* màu chữ, nền và border th, td  */
+th,
+td {
+  color: #f7cb0a;
+  background-color: #012e03;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 3px #fff;
+}
+/* hiệu ứng khi di chuột qua table có thẻ a */
+table a:hover {
+  color: #0ff;
+}
