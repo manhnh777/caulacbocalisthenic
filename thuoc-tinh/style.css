@@ -1,4 +1,3 @@
-/* thuộc tính chung */
 /* đặt attribute default cho body */
 body {
   font-size: 62.5%;
@@ -12,7 +11,7 @@ body {
 }
 /* attribute chung cho button cac trang */
 .bt_chung {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   text-decoration: none;
   color: #fff;
   background-color: #1f1e1e;
@@ -60,15 +59,14 @@ body {
   background-color: #181818;
   text-decoration: none;
   display: inline-block;
-  padding: 3px;
-  margin: 0 40% 0;
+  margin: 0 30% 0;
   border-radius: 5px;
   text-shadow: 0px 0px 2px#3a5c5a;
   box-shadow: inset 1px 1px #b1dbdb;
 }
 .quay-lai .quay-ve-dau-trang:hover {
-  color: #fff;
-  text-shadow: 0px 0px 3px #fff;
+  /* color: #fff;
+  text-shadow: 0px 0px 3px #fff; */
   box-shadow: inset 1px 1px #ff0;
   background-color: #111111;
 }
@@ -85,4 +83,16 @@ body {
 h1:target {
   color: #f00;
   text-shadow: 2px 2px 2px #807e7d;
+}
+/* bố cục hình ảnh*/
+.anh-trang-index {
+  width: 70%;
+  margin-left: 10%;
+}
+strong {
+  font-weight: bold;
+  color: #7fd1f7;
+}
+ul {
+  list-style-type: disc;
 }

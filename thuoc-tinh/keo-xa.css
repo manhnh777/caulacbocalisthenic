@@ -25,8 +25,6 @@
 }
 /* bố cục kéo xà */
 .anh-keo-xa {
-  width: 500px;
-  height: 50vh;
+  width: 70%;
   margin: 0 auto auto 20px;
-  background-size: 50% 100%;
 }

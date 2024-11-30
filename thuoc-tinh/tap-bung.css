@@ -13,11 +13,11 @@
   color: #b306b3;
 }
 /* cỡ chữ cho h1 có mang class là tên bài tập */
-.gap-bung-crunch,
+/* .gap-bung-crunch,
 .gap-bung-hanging-leg-raise,
 .plank {
   font-size: 1.8rem;
-}
+} */
 /* màu, cỡ chữ cho tiêu đề tập bụng */
 .tieu-de-tap-bung {
   color: rgb(255, 255, 255);
@@ -26,8 +26,17 @@
 }
 /* bố cục hình ảnh */
 .anh-tap-bung {
-  width: 300px;
-  height: 40vh;
+  width: 70%;
   margin: 0 auto auto 20px;
-  background-size: 100% 100%;
+}
+#crunch,
+#hanging-leg-raise,
+#plank,
+#the-jackknife-sit-up,
+#the-reverse-crunch,
+#scissor-kick,
+#mountain-climber,
+#bicycle-crunches,
+#russian-twist {
+  font-size: 1.8rem;
 }

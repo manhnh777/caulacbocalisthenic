@@ -17,10 +17,14 @@
 /* cỡ chữ cho bài tập */
 #squat,
 #forward-lunges,
-#jump-squat {
+#jump-squat,
+#pistol-squat,
+#standing-calf-raise,
+#jumping-jack {
   font-size: 1.8rem;
 }
 /* bố cục cho hình ảnh */
 .anh-tap-chan {
   width: 70%;
+  margin-left: 10%;
 }

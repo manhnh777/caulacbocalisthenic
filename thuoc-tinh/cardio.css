@@ -1,0 +1,20 @@
+/* màu và hover cho thẻ liên kết bài tập */
+.lien-ket-cardio a {
+  font-size: 1.3rem;
+  color: #0ff;
+  text-decoration: none;
+}
+.lien-ket-cardio a:hover {
+  color: #0f0;
+  text-decoration: underline;
+}
+/* màu chữ và đổ bóng cho tiêu đề */
+.tieu-de-cardio {
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px rgb(101, 236, 236);
+}
+/* kích cỡ chữ cho tên bài tập */
+#burpees {
+  font-size: 1.8rem;
+}

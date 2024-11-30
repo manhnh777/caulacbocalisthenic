@@ -14,7 +14,15 @@
 #hit-dat-doclen,
 #hit-dat-docxuong,
 #hit-dat-kimcuong,
-#bench-dip {
+#bench-dip,
+#bodyweight-tripceps-extension,
+#spiderman-push-up,
+#wide-push-up,
+#incline-push-up,
+#decline-push-up,
+#pike-push-up,
+#push-back-push-up,
+#crab-walk {
   font-size: 1.8rem;
 }
 /* đổi màu sắc khi nhấn vào đường link có class .hitdat */
@@ -23,10 +31,8 @@
 }
 /* kích cỡ ảnh chung hít đất */
 .anh-hit-dat {
-  width: 300px;
-  height: 50vh;
+  width: 70%;
   margin: 0 auto auto 20px;
-  background-size: 50% 100%;
 }
 /* hiệu ứng của phần .tieu-de-hit-dat */
 .tieu-de-hit-dat {
