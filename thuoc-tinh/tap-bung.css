@@ -1,4 +1,11 @@
 /* attribute và hiệu ứng cho khối div .liên-kết tập bụng */
+.lien-ket-tap-bung {
+  min-width: 100%;
+  border: 1px solid #4b4a4a;
+}
+.lien-ket-tap-bung li {
+  list-style-type: none;
+}
 .lien-ket-tap-bung a {
   font-size: 1.3rem;
   color: #0ff;
@@ -26,8 +33,8 @@
 }
 /* bố cục hình ảnh */
 .anh-tap-bung {
-  width: 70%;
-  margin: 0 auto auto 20px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 #crunch,
 #hanging-leg-raise,

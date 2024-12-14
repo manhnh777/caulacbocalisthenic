@@ -11,20 +11,22 @@ td {
   border: 2px solid #242121;
   box-shadow: 0 0 3px #54d0e0;
   text-shadow: 2px 2px 2px #000;
-  background: #0f0c29; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #24243e,
-    #302b63,
-    #0f0c29
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #24243e,
-    #302b63,
-    #0f0c29
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+@supports (background: -webkit-linear-gradient(to left, #237a57, #093028)) or
+  (background: linear-gradient(to left, #237a57, #093028)) {
+  th,
+  td {
+    color: #fbff00;
+    background-color: #024234;
+    border: 2px solid #242121;
+    box-shadow: 0 0 3px #54d0e0;
+    text-shadow: 2px 2px 2px #000;
+    background: #093028;
+    background: -webkit-linear-gradient(to left, #237a57, #093028);
+    background: linear-gradient(to left, #237a57, #093028);
+  }
+}
+
 /* hiệu ứng khi di chuột qua table có thẻ a */
 table a:hover {
   color: #0ad9fd;

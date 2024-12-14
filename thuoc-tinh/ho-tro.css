@@ -1,14 +1,49 @@
 /* màu cho phần text hỗ trợ */
+.lien-ket-ho-tro {
+  background: transparent;
+  width: 100%;
+  height: 30rem;
+  background-image: url(../anh/img/ho-tro.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .lien-ket-ho-tro h3 {
   color: rgb(240, 243, 240);
 }
 /* màu cho thẻ a và attribute  */
 .lien-ket-ho-tro a {
-  color: #e6ece5;
+  color: #30b918;
   text-decoration: none;
 }
 /* hiệu ứng khi di chuột */
 .lien-ket-ho-tro a:hover {
-  color: #078507;
+  color: #966c2e;
   text-decoration: underline;
+}
+.lien-ket-ho-tro .ho-tro,
+.lien-ket-ho-tro a {
+  color: #fdfafa9d;
+}
+@supports (background-image: linear-gradient(100deg, #302d30, #df9a5a, #fffb00))
+  or
+  (background-image: -webkit-linear-gradient(100deg, #302d30, #df9a5a, #fffb00)) {
+  .lien-ket-ho-tro .ho-tro,
+  .lien-ket-ho-tro a {
+    color: transparent;
+    background-color: aqua;
+    background-image: linear-gradient(100deg, #302d30, #df9a5a, #fffb00);
+    background-image: -webkit-linear-gradient(
+      100deg,
+      #302d30,
+      #df9a5a,
+      #fffb00
+    );
+  }
+}
+@supports (background-clip: text) or (-webkit-background-clip: tex) {
+  .lien-ket-ho-tro .ho-tro,
+  .lien-ket-ho-tro a {
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
 }

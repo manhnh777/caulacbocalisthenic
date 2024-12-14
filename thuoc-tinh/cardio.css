@@ -1,4 +1,11 @@
 /* màu và hover cho thẻ liên kết bài tập */
+.lien-ket-cardio {
+  max-width: 100%;
+  border: 1px solid #3f3e3e;
+}
+.lien-ket-cardio li {
+  list-style-type: none;
+}
 .lien-ket-cardio a {
   font-size: 1.3rem;
   color: #0ff;
@@ -15,6 +22,6 @@
   text-shadow: 1px 1px 2px rgb(101, 236, 236);
 }
 /* kích cỡ chữ cho tên bài tập */
-#burpees {
+[id] {
   font-size: 1.8rem;
 }

@@ -5,27 +5,43 @@ body {
   color: #fff;
   background-color: #353434;
 }
+div {
+  margin: 0 auto;
+}
 /* phần margin cho khối div .lien-ket-cac-trang */
 .lien-ket-cac-trang {
-  margin: 0 auto 0 20px;
+  height: 2rem;
+  background-color: #333535;
+  border: 1px solid #2b2a2a;
+  border-radius: 0.4rem;
+}
+.lien-ket-cac-trang:hover {
+  background-image: #333232;
+}
+@supports (background-image: linear-gradient(to right, #1a1919, #686868)) or
+  (background-image: -webkit-linear-gradient(to right, #1a1919, #686868)) {
+  .lien-ket-cac-trang:hover {
+    background-image: linear-gradient(to right, #1a1919, #686868);
+    background-image: -webkit-linear-gradient(to right, #1a1919, #686868);
+  }
 }
 /* attribute chung cho button cac trang */
 .bt_chung {
   font-size: 1.1rem;
   text-decoration: none;
-  color: #fff;
-  background-color: #1f1e1e;
+  color: #2b2a2a;
+  background-color: #3a3939;
   margin: 0 auto 0 5px;
   border-radius: 4px;
-  text-shadow: 0px 0px 2px #8beaf7, 0px 0px 1px #000;
-  box-shadow: 0px 0px 1px #fff, 0px 0px 2px #7beef1, 0px 0px 3px #000;
+  text-shadow: 0px 1px 0px #ffae00;
+  box-shadow: 2px 2px #555454;
 }
 /* hiệu ứng khi di chuột qua khối div .lien-ket-cac-trang */
 .bt_chung:hover {
-  color: #303030;
-  background-color: #ffffff;
-  text-shadow: 0px 0px 3px rgb(209, 238, 245);
-  box-shadow: 0px 0px 2px rgba(4, 217, 245, 0.952);
+  color: #ffae00;
+  background-color: #3a3939;
+  text-shadow: 1px 1px 0px #000000;
+  box-shadow: 2px 2px 0px #f8b420;
 }
 /* icon cho button home */
 .fa-house {
@@ -38,15 +54,24 @@ body {
   margin: 0 auto 0 10px;
   text-shadow: 0px 0px 1px #0f4ffd;
 }
+.trang-ho-tro {
+  font-size: 1.1rem;
+  color: #f5f2f2;
+  margin: 0 auto 0 10px;
+}
 /* màu và hiệu ứng cho khối div .danh-sach-tap index */
+.danh-sach-tap {
+  width: 100%;
+  border: 1px solid #424040;
+}
 .danh-sach-tap a {
-  color: rgb(4, 250, 176);
-  text-shadow: 0px 0px 1px #93dde7;
+  color: rgb(62, 127, 247);
+  text-shadow: 0px 0px 1px #000000;
   text-decoration: none;
 }
 /* hiệu ứng khi di chuột vào khối div .danh-sach-tap index */
 .danh-sach-tap a:hover {
-  color: #7beef1;
+  color: #0ad8df;
   text-decoration: underline;
 }
 .danh-sach-tap a:visited {
@@ -55,20 +80,19 @@ body {
 }
 /* hiệu ứng cho button quay lại trang chủ */
 .quay-lai .quay-ve-dau-trang {
-  color: #aae5ec;
+  color: #000000;
   background-color: #181818;
   text-decoration: none;
   display: inline-block;
   margin: 0 30% 0;
   border-radius: 5px;
-  text-shadow: 0px 0px 2px#3a5c5a;
-  box-shadow: inset 1px 1px #b1dbdb;
+  text-shadow: 0px 1px 0px #ffae00;
+  box-shadow: 2px 2px #555454;
 }
 .quay-lai .quay-ve-dau-trang:hover {
-  /* color: #fff;
-  text-shadow: 0px 0px 3px #fff; */
-  box-shadow: inset 1px 1px #ff0;
-  background-color: #111111;
+  color: #ffae00;
+  text-shadow: 1px 1px 0px #ff9101;
+  box-shadow: 2px 2px 0px #f8b420;
 }
 /* hiệu ứng cho thẻ tiêu đề h1 có class .tieu-de-mo-dau */
 .tieu-de-mo-dau {
@@ -82,12 +106,12 @@ body {
 }
 h1:target {
   color: #f00;
-  text-shadow: 2px 2px 2px #807e7d;
+  text-shadow: 4px 0 1px #000000;
 }
 /* bố cục hình ảnh*/
 .anh-trang-index {
-  width: 70%;
-  margin-left: 10%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 strong {
   font-weight: bold;

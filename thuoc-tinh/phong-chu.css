@@ -9,7 +9,8 @@
 .lien-ket-ho-tro,
 h1,
 table,
-.lien-ket-tap-chan {
+.lien-ket-tap-chan
+/* .trangchu */ {
   font-size: 1.3rem;
   font-family: "Roboto", sans-serif;
   font-weight: 400;

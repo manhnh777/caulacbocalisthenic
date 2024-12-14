@@ -1,4 +1,11 @@
 /* liên các bài tập thẻ div class .lien-ket-hit-dat  */
+.lien-ket-hit-dat {
+  max-width: 100%;
+  border: 1px solid #616060;
+}
+.lien-ket-hit-dat li {
+  list-style-type: none;
+}
 .lien-ket-hit-dat a {
   font-size: 1.3rem;
   color: #0ff;
@@ -10,19 +17,7 @@
   text-decoration: underline;
 }
 /* cỡ chữ của id dẫn đến các bài tập */
-#hit-dat-thuong,
-#hit-dat-doclen,
-#hit-dat-docxuong,
-#hit-dat-kimcuong,
-#bench-dip,
-#bodyweight-tripceps-extension,
-#spiderman-push-up,
-#wide-push-up,
-#incline-push-up,
-#decline-push-up,
-#pike-push-up,
-#push-back-push-up,
-#crab-walk {
+[id] {
   font-size: 1.8rem;
 }
 /* đổi màu sắc khi nhấn vào đường link có class .hitdat */
@@ -31,8 +26,8 @@
 }
 /* kích cỡ ảnh chung hít đất */
 .anh-hit-dat {
-  width: 70%;
-  margin: 0 auto auto 20px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 /* hiệu ứng của phần .tieu-de-hit-dat */
 .tieu-de-hit-dat {
