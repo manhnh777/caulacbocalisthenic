@@ -10,10 +10,12 @@ div {
 }
 /* phần margin cho khối div .lien-ket-cac-trang */
 .lien-ket-cac-trang {
-  height: 2rem;
+  text-align: center;
+  margin: 0 2rem;
+  padding: 0.2rem;
   background-color: #333535;
   border: 1px solid #2b2a2a;
-  border-radius: 0.4rem;
+  border-radius: 1rem;
 }
 .lien-ket-cac-trang:hover {
   background-image: #333232;
@@ -29,19 +31,18 @@ div {
 .bt_chung {
   font-size: 1.1rem;
   text-decoration: none;
-  color: #2b2a2a;
-  background-color: #3a3939;
-  margin: 0 auto 0 5px;
-  border-radius: 4px;
-  text-shadow: 0px 1px 0px #ffae00;
-  box-shadow: 2px 2px #555454;
+  color: #171717;
+  padding: 0.1rem;
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+  text-shadow: -1px 0 2px #ffae00;
 }
 /* hiệu ứng khi di chuột qua khối div .lien-ket-cac-trang */
 .bt_chung:hover {
   color: #ffae00;
+  border: 1px solid #000;
   background-color: #3a3939;
   text-shadow: 1px 1px 0px #000000;
-  box-shadow: 2px 2px 0px #f8b420;
 }
 /* icon cho button home */
 .fa-house {
@@ -79,20 +80,22 @@ div {
   text-shadow: 0 0 1px #000;
 }
 /* hiệu ứng cho button quay lại trang chủ */
+.quay-lai {
+  text-align: center;
+}
 .quay-lai .quay-ve-dau-trang {
   color: #000000;
-  background-color: #181818;
   text-decoration: none;
   display: inline-block;
-  margin: 0 30% 0;
   border-radius: 5px;
-  text-shadow: 0px 1px 0px #ffae00;
-  box-shadow: 2px 2px #555454;
+  text-shadow: -1px -1px #ffae00;
 }
 .quay-lai .quay-ve-dau-trang:hover {
   color: #ffae00;
-  text-shadow: 1px 1px 0px #ff9101;
-  box-shadow: 2px 2px 0px #f8b420;
+  text-shadow: 0 0 3px #000;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  margin-top: 0.3rem;
 }
 /* hiệu ứng cho thẻ tiêu đề h1 có class .tieu-de-mo-dau */
 .tieu-de-mo-dau {
@@ -112,10 +115,6 @@ h1:target {
 .anh-trang-index {
   max-width: 100%;
   margin: 0 auto;
-}
-strong {
-  font-weight: bold;
-  color: #7fd1f7;
 }
 ul {
   list-style-type: disc;

@@ -8,8 +8,7 @@ th,
 td {
   color: #fbff00;
   background-color: #024234;
-  border: 2px solid #242121;
-  box-shadow: 0 0 3px #54d0e0;
+  border: 2px solid #050505;
   text-shadow: 2px 2px 2px #000;
 }
 @supports (background: -webkit-linear-gradient(to left, #237a57, #093028)) or
@@ -18,8 +17,7 @@ td {
   td {
     color: #fbff00;
     background-color: #024234;
-    border: 2px solid #242121;
-    box-shadow: 0 0 3px #54d0e0;
+    border: 2px solid #000000;
     text-shadow: 2px 2px 2px #000;
     background: #093028;
     background: -webkit-linear-gradient(to left, #237a57, #093028);

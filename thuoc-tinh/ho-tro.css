@@ -10,12 +10,10 @@
 .lien-ket-ho-tro h3 {
   color: rgb(240, 243, 240);
 }
-/* màu cho thẻ a và attribute  */
-.lien-ket-ho-tro a {
+/* .lien-ket-ho-tro a {
   color: #30b918;
   text-decoration: none;
 }
-/* hiệu ứng khi di chuột */
 .lien-ket-ho-tro a:hover {
   color: #966c2e;
   text-decoration: underline;
@@ -46,4 +44,15 @@
     background-clip: text;
     -webkit-background-clip: text;
   }
+} */
+.lien-ket-ho-tro h3,
+a {
+  color: #030303;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-decoration: none;
+  text-shadow: -2px -1px 1px #789999;
+}
+.lien-ket-ho-tro a:hover {
+  text-shadow: -2px -1px 1px #b6b312;
 }
