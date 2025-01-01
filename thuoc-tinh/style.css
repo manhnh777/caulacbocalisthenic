@@ -19,30 +19,26 @@ div {
 }
 .lien-ket-cac-trang:hover {
   background-image: #333232;
-}
-@supports (background-image: linear-gradient(to right, #1a1919, #686868)) or
-  (background-image: -webkit-linear-gradient(to right, #1a1919, #686868)) {
-  .lien-ket-cac-trang:hover {
-    background-image: linear-gradient(to right, #1a1919, #686868);
-    background-image: -webkit-linear-gradient(to right, #1a1919, #686868);
-  }
+  background-image: linear-gradient(to right, #1a1919, #686868);
 }
 /* attribute chung cho button cac trang */
 .bt_chung {
   font-size: 1.1rem;
   text-decoration: none;
-  color: #171717;
-  padding: 0.1rem;
-  margin: 0 1rem;
-  border-radius: 0.5rem;
-  text-shadow: -1px 0 2px #ffae00;
-}
-/* hiệu ứng khi di chuột qua khối div .lien-ket-cac-trang */
-.bt_chung:hover {
   color: #ffae00;
   border: 1px solid #000;
   background-color: #3a3939;
   text-shadow: 1px 1px 0px #000000;
+  padding: 0.1rem;
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+}
+/* hiệu ứng khi di chuột qua khối div .lien-ket-cac-trang */
+.bt_chung:hover {
+  color: #171717;
+  text-shadow: -1px 0 2px #ffae00;
+  border: none;
+  background-color: transparent;
 }
 /* icon cho button home */
 .fa-house {
@@ -72,11 +68,10 @@ div {
 }
 /* hiệu ứng khi di chuột vào khối div .danh-sach-tap index */
 .danh-sach-tap a:hover {
-  color: #0ad8df;
   text-decoration: underline;
 }
 .danh-sach-tap a:visited {
-  color: #f0f;
+  color: #f36ff3;
   text-shadow: 0 0 1px #000;
 }
 /* hiệu ứng cho button quay lại trang chủ */
@@ -84,18 +79,19 @@ div {
   text-align: center;
 }
 .quay-lai .quay-ve-dau-trang {
-  color: #000000;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 5px;
-  text-shadow: -1px -1px #ffae00;
-}
-.quay-lai .quay-ve-dau-trang:hover {
   color: #ffae00;
   text-shadow: 0 0 3px #000;
   border: 1px solid #000;
   border-radius: 0.5rem;
   margin-top: 0.3rem;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+.quay-lai .quay-ve-dau-trang:hover {
+  color: #000000;
+  text-shadow: -1px -1px #ffae00;
+  border: none;
 }
 /* hiệu ứng cho thẻ tiêu đề h1 có class .tieu-de-mo-dau */
 .tieu-de-mo-dau {

@@ -7,24 +7,13 @@ table a {
 th,
 td {
   color: #fbff00;
-  background-color: #024234;
-  border: 2px solid #050505;
+  padding: 0.5rem;
+  align-content: center;
+  background-color: #079979;
+  background: linear-gradient(to left, #30faa9, #02a172);
+  border: 2px inset #000000;
   text-shadow: 2px 2px 2px #000;
 }
-@supports (background: -webkit-linear-gradient(to left, #237a57, #093028)) or
-  (background: linear-gradient(to left, #237a57, #093028)) {
-  th,
-  td {
-    color: #fbff00;
-    background-color: #024234;
-    border: 2px solid #000000;
-    text-shadow: 2px 2px 2px #000;
-    background: #093028;
-    background: -webkit-linear-gradient(to left, #237a57, #093028);
-    background: linear-gradient(to left, #237a57, #093028);
-  }
-}
-
 /* hiệu ứng khi di chuột qua table có thẻ a */
 table a:hover {
   color: #0ad9fd;
